@@ -3,7 +3,7 @@ class Author
   
   def initialize(name)
     @name = name 
-    self.posts = []
+    @posts = []
   end 
   
   
