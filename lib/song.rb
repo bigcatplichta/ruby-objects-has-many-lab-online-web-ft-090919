@@ -6,4 +6,8 @@ class Song
     @name = name 
      
   end 
+  
+  def @artist=(name)
+    :name = name
+    
 end 
