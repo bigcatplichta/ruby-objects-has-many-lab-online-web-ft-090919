@@ -3,6 +3,6 @@ class Post
   
   def initialize(title)
     @title = title 
-    
+    @author.posts << self 
   end 
 end 
