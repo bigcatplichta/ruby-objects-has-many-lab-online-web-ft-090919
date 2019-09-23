@@ -8,6 +8,7 @@ class Song
   end 
   
   def @artist=(name)
-    :name = name
-    
+    @artist = name
+    @artist.songs << self 
+  end 
 end 
